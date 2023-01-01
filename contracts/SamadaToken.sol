@@ -23,11 +23,12 @@ contract SamadaToken is ERC20Capped, ERC20Burnable {
         blockReward = formatNumber(_reward);
     }
 
+
     function _mint(address account, uint256 amount) internal virtual override(ERC20Capped, ERC20) {
         require(ERC20.totalSupply() + amount <= cap(), "ERC20Capped: max supply reached!");
         super._mint(account, amount);
     }
-
+    
     function _mintMinerReward() internal {
         // block.coinbase cointains the address of our dear miner!
         _mint(block.coinbase, blockReward);
