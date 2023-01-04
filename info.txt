@@ -1,2 +1,2 @@
-Token Contract address : 0x5aE164b2a67DE59E96bEEeb81F8eE96887c96c2d
-Token Faucet Contract address: 0x552D9d76B44376e8867B6E1f52e18e5bD5BC61ac
+Deployed Token Contract address -Georli testnet- : 0x5aE164b2a67DE59E96bEEeb81F8eE96887c96c2d
+Deployed Token Faucet Contract address -Georli testnet-: 0x552D9d76B44376e8867B6E1f52e18e5bD5BC61ac

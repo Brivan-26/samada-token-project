@@ -2,10 +2,8 @@
 const hre = require("hardhat");
 
 async function main() {
-  
   const SamadaToken = await hre.ethers.getContractFactory("SamadaToken");
   const samadaToken = await SamadaToken.deploy(10000000, 10);
-
   await samadaToken.deployed();
 
   console.log(
